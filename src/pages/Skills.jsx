@@ -4,7 +4,7 @@ import {
 } from "react-icons/fa6";
 import { RiTailwindCssFill, RiJavascriptFill } from "react-icons/ri";
 import { SiTypescript, SiNextdotjs, SiRedux, SiFigma, SiMongodb, SiPostgresql } from "react-icons/si";
-
+import { SiZulip } from "react-icons/si";
 const categories = [
   {
     label: "Frontend",
@@ -30,6 +30,7 @@ const categories = [
   {
     label: "Tools",
     skills: [
+            { name: "Zustand",  icon: SiZulip,  color: "#cb8300", level: 100, desc: "State management library" },
       { name: "Redux",  icon: SiRedux,  color: "#764ABC", level: 80, desc: "State management library" },
       { name: "Git",    icon: FaGitAlt, color: "#F05032", level: 88, desc: "Version control system" },
       { name: "GitHub", icon: FaGithub, color: "#e2e8f0", level: 90, desc: "Code hosting platform" },
