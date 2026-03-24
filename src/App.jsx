@@ -5,8 +5,8 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Experience from "./pages/Experience";
-import Testimonials from "./pages/Testimonials";
 import NotFound from "./pages/NotFound";
+import Skills from "./pages/Skills";
 
 const Home = () => (
   <>
@@ -14,7 +14,7 @@ const Home = () => (
     <About />
     <Projects />
     <Experience />
-    <Testimonials />
+    <Skills />
     <Contact />
   </>
 );
